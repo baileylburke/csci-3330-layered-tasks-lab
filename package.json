@@ -1,11 +1,12 @@
 {
   "name": "9.0-secrets-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CSCI-3330 layered task API lab",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "node --test"
   },
   "keywords": [],
   "author": "",
